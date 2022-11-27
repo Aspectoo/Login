@@ -12,7 +12,7 @@ public class Database {
 
     HashMap<String, String> credentials = new HashMap<>(); //Declaring a HasMap.
 
-    public void setCredentials() {
+    public Database() {
         credentials.put("Aspect", "SafePassword123!"); //Example 1: name = Aspect, password = SafePassword123
         credentials.put("Hacker", "Hacker321!"); //Example 2: name = Hacker, password = Hacker321!
     }
